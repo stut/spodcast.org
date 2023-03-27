@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	background-color: #eee;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+	padding: 0;
+  font-weight: normal;
+}
+
+body {
+  padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 742px;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 1rem #999;
+}
+
+header {
+	height: 115px;
+	background: url(/assets/spodcast-logo.jpg);
+}
+
+header h1 {
+	display: none;
+}
+
+div.main-and-sidebar {
+	border: 1px solid #ccc;
+	background-color: #fcfcfc;
+}
+
+div.intro {
+	margin: 1rem 1rem 0 1rem;
+}
+
+div.intro h2 {
+	font-weight: 700;
+}
+
+div.intro a.feed-link {
+	float: right;
+}
+
+div.intro p {
+	margin-top: 1em;
+}
+
+main {
+	margin: 1rem;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+article h2 {
+	font-weight: 700;
+	margin-top: 1.5rem;
+}
+
+article ul {
+	padding-left: 2.5rem;
+}
+article ul ul {
+	padding-left: 1rem;
+}
+
+article audio {
+	width: 95%;
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+	padding: 1rem 2rem;
+}
